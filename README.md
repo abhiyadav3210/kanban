@@ -112,6 +112,7 @@ src/
 ## 🔧 Key Implementation Details
 
 ### State Management
+```
 // Efficient Redux slices for predictable state updates
 
 authSlice: User authentication and session management
@@ -135,6 +136,7 @@ boardSlice: Tasks, filters, and board state management
 ## 🚀 Deployment
 
 ### Vercel Deployment
+```
 Build the project
 npm run build
 
@@ -143,6 +145,7 @@ npx vercel --prod
 
 ```
 ### Environment Variables
+```
 REACT_APP_API_URL=your_api_url
 REACT_APP_ENV=production
 
