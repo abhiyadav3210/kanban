@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Provider, useSelector, useDispatch } from "react-redux";
+import { store } from "./store";
+import { logout } from "./store/slices/authSlice";
+import LoginForm from "./components/Auth/LoginForm";
+import SignupForm from "./components/Auth/SignupForm";
+import KanbanBoard from "./components/Board/KanbanBoard";
+import "./index.css";
+
+const AuthWrapper = () => {
+  const [showLogin, setShowLogin] = useState(true);
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+
+  if (isAuthenticated) {
+    return <KanbanBoard />;
+  }
+
+  return showLogin ? (
+    <LoginForm onToggleForm={() => setShowLogin(false)} />
+  ) : (
+    <SignupForm onToggleForm={() => setShowLogin(true)} />
+  );
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <AuthWrapper />
+    </Provider>
   );
 }
 
