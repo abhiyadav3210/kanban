@@ -4,8 +4,8 @@ A modern, responsive vulnerability management system built with React and Redux,
 
 ## 🚀 Live Demo
 
-- **Deployed Application**: [Your Vercel URL]
-- **GitHub Repository**: [Your GitHub URL]
+- **Deployed Application**: [https://kanban-ze1u.vercel.app/]
+- **GitHub Repository**: (https://github.com/abhiyadav3210/kanban)
 
 ## 📋 Features
 
@@ -49,26 +49,29 @@ A modern, responsive vulnerability management system built with React and Redux,
 
 ### Quick Start
 Clone the repository
-git clone [your-github-url]
+```
+git clone (https://github.com/abhiyadav3210/kanban.git)
 cd vulnerability-kanban
-
+```
 Install dependencies
+```
 npm install
-
+```
 Start development server
+```
 npm start
-
+```
 Open http://localhost:3000 in your browser
-text
+```
 
 ### Demo Credentials
 Email: admin@vuln.com
 Password: password123
 
-text
+```
 
 ## 🏗️ Project Structure
-
+```
 src/
 ├── components/
 │ ├── Auth/
@@ -91,7 +94,7 @@ src/
 │ └── index.js # Application constants
 └── App.js # Root component
 
-text
+```
 
 ## 🎨 Design Implementation
 
@@ -115,7 +118,7 @@ authSlice: User authentication and session management
 
 boardSlice: Tasks, filters, and board state management
 
-text
+```
 
 ### Performance Optimizations
 - Memoized selectors for efficient filtering
@@ -138,13 +141,12 @@ npm run build
 Deploy to Vercel
 npx vercel --prod
 
-text
-
+```
 ### Environment Variables
 REACT_APP_API_URL=your_api_url
 REACT_APP_ENV=production
 
-text
+```
 
 ## 🧪 Testing Checklist
 
@@ -201,10 +203,10 @@ text
 
 ## 👨‍💻 Developer
 
-**[Your Name]**
-- Email: [your-email]
-- GitHub: [your-github]
-- LinkedIn: [your-linkedin]
+**[Abhishek Yadav]**
+- Email: [work.abhisheky@gmail.com]
+- GitHub: [abhiyadav3210]
+- LinkedIn: [https://www.linkedin.com/in/abhishekyadavdev/]
 
 ## 📄 License
 
