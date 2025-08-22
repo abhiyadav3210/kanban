@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Vulnerability Management Kanban Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive vulnerability management system built with React and Redux, featuring drag-and-drop functionality, real-time filtering, and comprehensive task management.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+- **Deployed Application**: [Your Vercel URL]
+- **GitHub Repository**: [Your GitHub URL]
 
-### `npm start`
+## 📋 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Core Functionality
+- ✅ **User Authentication** - Secure login/signup with form validation
+- ✅ **Kanban Board** - 5 status columns (Draft, Unsolved, Under Review, Solved, Needs Info)
+- ✅ **Drag & Drop** - Seamless task movement between columns
+- ✅ **CRUD Operations** - Create, read, update, delete vulnerabilities
+- ✅ **Real-time Search** - Search by vulnerability ID or title
+- ✅ **Advanced Filtering** - Filter by severity level and source
+- ✅ **Dynamic Sorting** - Sort by date, severity, or CVSS score
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Experience
+- ✅ **Responsive Design** - Optimized for mobile, tablet, and desktop
+- ✅ **Touch Support** - Mobile-friendly drag interactions
+- ✅ **Loading States** - Smooth animations and feedback
+- ✅ **Form Validation** - Comprehensive client-side validation
+- ✅ **Accessibility** - WCAG compliant with keyboard navigation
 
-### `npm test`
+### Technical Excellence
+- ✅ **State Management** - Redux Toolkit for predictable state updates
+- ✅ **Performance** - Optimized re-renders and efficient filtering
+- ✅ **Code Quality** - Clean, modular, and maintainable architecture
+- ✅ **Modern Stack** - React 18, Redux Toolkit, Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **Frontend**: React 18, JavaScript ES6+
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS 3.x
+- **Drag & Drop**: React DND
+- **Icons**: Heroicons
+- **Build Tool**: Create React App
+- **Deployment**: Vercel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Quick Start
