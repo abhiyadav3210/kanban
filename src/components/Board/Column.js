@@ -8,6 +8,7 @@ import { PlusIcon } from "@heroicons/react/24/outline";
 const Column = ({
   column,
   tasks,
+  task1,
   onCreateTask,
   onCardClick,
   isMobile = false,
