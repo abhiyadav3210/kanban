@@ -9,6 +9,7 @@ const Column = ({
   column,
   tasks,
   task1,
+  task2,
   onCreateTask,
   onCardClick,
   isMobile = false,
